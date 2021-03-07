@@ -1,0 +1,30 @@
+.element {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 30px solid;
+}
+
+#rock {
+    background: url(../../images/icon-rock.svg) no-repeat center;
+    background-position: center;
+    background-size: 70px;
+    background-color: #fbfbfb;
+    border-color: hsl(349, 71%, 52%);
+}
+
+#paper {
+    background: url(../../images/icon-paper.svg) no-repeat center;
+    background-position: center;
+    background-size: 70px;
+    background-color: #fbfbfb;
+    border-color: hsl(230, 89%, 62%);
+}
+
+#scissors {
+    background: url(../../images/icon-scissors.svg) no-repeat center;
+    background-position: center;
+    background-size: 70px;
+    background-color: #fbfbfb;
+    border-color: hsl(39, 89%, 49%);
+}
