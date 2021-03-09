@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 body {
@@ -21,20 +22,54 @@ body {
 }
 
 .painel-final {
-    width: 40%;
+    width: 50%;
     align-items: center;
 }
 
 .final-result {
-    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
-.final-result p {
-    width: 80px;
-    position: absolute;
-    right: 235px;
-    top: 90px;
+.result-text {
     text-align: center;
     color: #fbfbfb;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
+
+.reset-button {
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #fbfbfb;
+    color: hsl(349, 70%, 56%);
+    font-size: 1.2rem;
+}
+
+.element-chosen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.element-chosen p {
+    color: #fbfbfb;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.attribution { 
+    font-size: 1rem; 
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.attribution a { 
+    color: hsl(189, 58%, 57%);
+}
+
+
