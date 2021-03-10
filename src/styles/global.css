@@ -40,7 +40,7 @@ body {
 }
 
 .reset-button {
-    height: 50px;
+    height: 3rem;
     border-radius: 5px;
     border: none;
     outline: none;
@@ -116,14 +116,33 @@ body {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 375px) {
     html {
         font-size: 75%;
     }
 
     .painel{ 
         width: 90%;
+        height: 45vh;
+    }
+
+    .final-result {
+        min-width: 60px;
+    }
+
+    .result-text {
+        font-size: 1rem;
+    }
+
+    .reset-button {
+        font-size: 1rem;
+    }
+
+    .element-chosen p {
+        font-size: 1rem;
+        letter-spacing: 1px;
     }
 }
+
 
 
