@@ -10,13 +10,13 @@ body {
 }
 
 .painel, .painel-final {
-    height: 60vh;
+    height: 400px;
     margin: 4rem auto;
     display: flex;
     justify-content: space-between;
 }
 .painel{ 
-    width: 40%;
+    width: 35%;
     position: relative;
 }
 
@@ -79,7 +79,7 @@ body {
 
     .painel{ 
         width: 50%;
-        height: 55vh;
+        height: 350px;
     }
 
     .painel-final {
@@ -93,7 +93,6 @@ body {
     }
     .painel{ 
         width: 60%;
-        height: 50vh;
     }
 
     .painel-final {
@@ -113,6 +112,7 @@ body {
 
     .painel{ 
         width: 80%;
+        height: 340px;
     }
 }
 
@@ -123,7 +123,7 @@ body {
 
     .painel{ 
         width: 90%;
-        height: 45vh;
+        height: 300px;
     }
 
     .final-result {
