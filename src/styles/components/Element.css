@@ -42,7 +42,7 @@
     border-color: #2c2c2c;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 480px) {
     .element {
         width: 10rem;
         height: 10rem;
