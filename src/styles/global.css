@@ -9,15 +9,14 @@ body {
     background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
 }
 
-
 .painel, .painel-final {
-    height: 440px;
-    margin: 60px auto;
+    height: 60vh;
+    margin: 4rem auto;
     display: flex;
     justify-content: space-between;
 }
 .painel{ 
-    width: 35%;
+    width: 40%;
     position: relative;
 }
 
@@ -29,6 +28,7 @@ body {
 .final-result {
     display: flex;
     flex-direction: column;
+    min-width: 100px;
 }
 
 .result-text {
@@ -70,6 +70,60 @@ body {
 
 .attribution a { 
     color: hsl(189, 58%, 57%);
+}
+
+@media (max-width: 1140px) {
+    html {
+        font-size: 93.75%;
+    }
+
+    .painel{ 
+        width: 50%;
+        height: 55vh;
+    }
+
+    .painel-final {
+        width: 80%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+    .painel{ 
+        width: 60%;
+        height: 50vh;
+    }
+
+    .painel-final {
+        width: 100%;
+        padding: .5rem;
+    }
+
+    .result-text {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 560px) {
+    html {
+        font-size: 81.25%;
+    }
+
+    .painel{ 
+        width: 80%;
+    }
+}
+
+@media (max-width: 360px) {
+    html {
+        font-size: 75%;
+    }
+
+    .painel{ 
+        width: 90%;
+    }
 }
 
 
